@@ -1,0 +1,474 @@
+body{
+    background-color: #f5f5f5;
+    opacity: 1;
+}
+
+
+.wrapper{
+    width: 100%;
+    background-color:#f5f5f5;
+}
+
+
+.container-fluid{
+    padding:0;
+}
+.headerImage{
+    background-image: url(../images/header.jpg) ;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-height: 800px;
+    border-bottom: solid;
+    border-bottom-color: crimson;
+    
+}
+
+.logo{
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    right:0;
+    
+}
+
+.headerTitle{
+    text-align:center;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    right:0;
+    
+}
+
+.headerTitle h1{
+    font-size: 40px;
+}
+
+.headerTitle p{
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.topbtn{
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    text-transform: uppercase;
+    top: 180px;
+    display: block;
+    margin: auto;
+    padding: 10px 50px;
+       
+}
+.headerTitle a .topbtn{
+     color: #fff;
+   
+}
+
+.headerTitle a:hover{
+     color: #fff;
+    text-decoration: none;
+}
+
+
+.topbtn:hover{
+    background-color:#e54251;
+    
+}
+
+.middleText {
+    background-color: #ffffff;
+}
+
+.middleText h6{
+    text-transform: uppercase;
+}
+
+.middleText p{
+    font-size: 14px;
+    font-weight:200;
+}
+
+.responsiveimg{
+    max-width: 100%;
+}
+
+
+.backgroundImage {
+    background-image:url(../images/background.jpg);
+    background-size: cover;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.backgroundImage h6,h4{
+    text-align: center;
+}
+
+.bgColor {
+     background-color: rgba(44, 50, 56, 0.93);
+   
+}
+
+
+.bgColor h4 {
+    margin-top:7px;
+
+}
+
+.bgColor h6{
+    text-transform: uppercase;
+}
+
+.pricing {
+    text-align:center;
+}
+
+h6{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #adb7bd;
+}
+
+.plan{
+    position: relative;
+    font-weight: 300;
+  
+}
+
+.priceplan p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.currency{
+    position: absolute;
+    font-weight: bold;
+    left: 36%;
+    top: 30%;
+}
+
+.price{
+    font-size: 60px;
+    
+}
+
+.period {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.btn2{
+    background-color: #e54251;
+    padding: .5rem 1rem;
+    width: 70%;
+    position: relative;background: 
+    margin: 0 auto;
+    top: 0px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    border-style:none;
+ 
+}
+
+.btn2:hover{
+   background-color: rgb(229,66,81,0.6);  
+}
+
+
+.btn2 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.text {
+    color: #727272;
+    font-size: 12px;
+    top: 40px;
+    position: relative;
+}
+
+
+.formInformation h6{
+    color: #adb7bd;
+ 
+}
+
+
+.formInformation {
+    text-align:center;
+    
+}
+
+.form{
+    width: 55%;
+}
+
+.formColor{
+    background-color: #ffffff;
+}
+
+.form-check i{
+    color: #727272;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+
+
+.btn-submit{
+    text-align: center;
+    background-color: #e54251;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    color: #fff;
+    padding: 10px 65px;
+    font-size: 12px;
+}
+
+.btn-submit:hover{
+     background-color: rgb(229,66,81,0.6);  
+}
+
+.btn-submit a:hover{
+    text-decoration:none;
+   
+}
+
+.pricingColor{
+    background-color:#f5f5f5;
+
+
+   
+}
+
+
+
+.footer {
+    background-color: #1f2123;
+    text-align: center;
+}
+
+.footerlogo{
+    width: 141px;
+    height: 45px;
+    text-align: center;
+    margin:2%; 
+}
+
+.footer li{
+   list-style-type: none;
+    margin-top: 15px;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight:200;
+}
+
+.footerSocialMedia{
+     margin-top: 15px;
+}
+
+.footerSocialMedia img{
+    width: 38px;
+    height: 38px;
+}
+
+
+
+
+@media (max-width: 350px){
+    footer nav ul li a{
+        font-size: 12px;
+    }
+}
+
+form{
+    width: 60%;
+    margin: auto;
+    font-size: 12px;
+   
+    
+}
+
+p{
+    font-weight: 200;
+}
+
+.form-control{
+    color: #b1b1b1;
+     background-color:#f5f5f5;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.overlay-content li{
+    list-style: none;
+   
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 40px;
+}
+
+.menuIcon{
+    font-size:40px;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 80px;
+    top: 15px;
+    left: 35px;
+  }
+    
+        .currency{
+    position: absolute;
+    font-weight: bold;
+    left: 22%;
+    top: 30%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+ 
+  
+    .currency{
+    position: absolute;
+    font-weight: bold;
+    left:10%;
+    top: 30%;
+}
+}
+
+
+
+
+.footerLink .wflogo{
+    width: 22px;
+    height: 22px;
+  
+}
+
+
+
+.fa-heart {
+    color: red;
+}
+
+.wflogo{
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+#hiddenElement{
+  visibility: hidden;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin-top: 2px;
+  padding: 5px;
+}
+
+#footerItem:hover #hiddenElement {
+  visibility:visible;
+  color: #bababa;
+  left: 20px;
+}
+
+.modal-header .close{
+    float: right;
+}
+
+.modal-title {
+    top: 10px;
+    text-align:center;
+}
+
+h6.modal-title {
+    color:#adb7bd;
+    font-size: 11px;
+}
+
+h3.modal-title {
+    color: #2c3238;
+    font-size: 23px;
+}
+
+
+.modal-dialog{
+    background-color:#4a4a4a;
+    border: none;
+    border-radius: 12px;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 500px;
+    margin: 30px auto;
+    }
+}
+
+i.fa.fa-times{
+    font-size:12px;
+    color: #adb7bd;
+}
+
+.modal-header{
+    border:none;
+}
+
